@@ -1,0 +1,1 @@
+java -cp D:\selenium18\SeleniumTraining\bin;D:\selenium18\SeleniumTraining\libs\* org.testng.TestNG testng.xml

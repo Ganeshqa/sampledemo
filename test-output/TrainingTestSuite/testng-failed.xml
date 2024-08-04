@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [TrainingTestSuite]">
+  <parameter name="Browsername" value="chrome"/>
+  <parameter name="url" value="http://orangehrm.qedgetech.com/symfony/web/index.php"/>
+  <test name="Testing the functionality of acttime applicaiton(failed)">
+    <parameter name="Browsername" value="chrome"/>
+    <parameter name="url" value="http://orangehrm.qedgetech.com/symfony/web/index.php"/>
+    <classes>
+      <class name="testngscript.FileUploading">
+        <methods>
+          <include name="Launchbrowser"/>
+        </methods>
+      </class> <!-- testngscript.FileUploading -->
+    </classes>
+  </test> <!-- Testing the functionality of acttime applicaiton(failed) -->
+</suite> <!-- Failed suite [TrainingTestSuite] -->

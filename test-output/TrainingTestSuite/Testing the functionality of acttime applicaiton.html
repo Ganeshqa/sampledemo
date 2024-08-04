@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>TestNG:  Testing the functionality of acttime applicaiton</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Testing the functionality of acttime applicaiton</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 30 22:00:03 EDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>56 seconds (56316 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testngscript.Handling_webtable.WebTable()'><b>WebTable</b><br>Test class: testngscript.Handling_webtable<br/>
+<a href="#Output-21746720" onClick='toggleBox("Output-21746720", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-21746720" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21746720">
+no of rows in webtable is=7<br><br/>
+no of colums in webtable is=3<br><br/>
+row=2,col=1,text=Alfreds Futterkiste<br><br/>
+row=2,col=2,text=Maria Anders<br><br/>
+row=2,col=3,text=Germany<br><br/>
+row=3,col=1,text=Centro comercial Moctezuma<br><br/>
+row=3,col=2,text=Francisco Chang<br><br/>
+row=3,col=3,text=Mexico<br><br/>
+row=4,col=1,text=Ernst Handel<br><br/>
+row=4,col=2,text=Roland Mendel<br><br/>
+row=4,col=3,text=Austria<br><br/>
+row=5,col=1,text=Island Trading<br><br/>
+row=5,col=2,text=Helen Bennett<br><br/>
+row=5,col=3,text=UK<br><br/>
+row=6,col=1,text=Laughing Bacchus Winecellars<br><br/>
+row=6,col=2,text=Yoshi Tannamuri<br><br/>
+row=6,col=3,text=Canada<br><br/>
+row=7,col=1,text=Magazzini Alimentari Riuniti<br><br/>
+row=7,col=2,text=Giovanni Rovelli<br><br/>
+row=7,col=3,text=Italy<br><br/>
+</div>
+</td>
+<td></td>
+<td>51</td>
+<td>testngscript.Handling_webtable@194d431</td></tr>
+</table><p>
+</body>
+</html>

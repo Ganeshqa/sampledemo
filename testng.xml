@@ -1,0 +1,25 @@
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TrainingTestSuite" annotations= "JDK" thread-count="6">
+
+ 
+ <test name="Testing the functionality of acttime applicaiton">
+ 
+ <parameter name="Browsername" value="chrome"></parameter>
+ 
+ <parameter name="url" value="https://www.w3schools.com/"></parameter>
+   
+  <classes>
+
+    
+	 <class name="testngscript.Handling_webtable"></class>
+	
+	 
+     
+  </classes>
+
+</test>
+
+
+ 
+</suite>
